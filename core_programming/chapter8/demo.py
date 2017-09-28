@@ -2,6 +2,7 @@ legends = {('Poe', 'author'): (1809, 1849, 1976),
            ('Gaudi', 'architect'): (1852, 1906, 1987),
            ('Freud', 'psychoanalyst'): (1856, 1939, 1990)}
 
+# Python的元组可以用如下的形式访问
 for eachLegend in legends:
     print('%s %s'% eachLegend)
     print('Name: %s\t Occupation:%s' % eachLegend)
